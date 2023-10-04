@@ -1,6 +1,3 @@
-# Data_Mining
-This repository includes coding assignments and other project work related to C7118-Data Mining
-
 # K-Means Subspace Clustering
 
 This Python program implements the K-means algorithm for subspace clustering. It reads data from the "test.dat" input file, performs K-means clustering for a range of K values (from Kmin to Kmax), and calculates the Sum of Square Errors (SSE) for each clustering. The results are written to the "test.res" output file.
@@ -32,7 +29,6 @@ a1d1 ...,a1dm
 .
 and1 ...,andm
 
-
 - n: Total number of objects.
 - m: Count of dimensions (attributes).
 - Kmin: Minimum value of K to be tested.
@@ -49,4 +45,4 @@ The "test.res" output file contains K and SSE values for each K in the specified
 - NumPy
 
 
-This `Readme.md` file provides an overview of project, how to use it, the input and output formats, dependencies, and licensing information.
+This `Readme.md` file provides an overview of project, how to use it, the input and output formats, and dependencies.
